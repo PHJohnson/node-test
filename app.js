@@ -13,7 +13,7 @@ app.configure(function() {
 
 
 app.get('/', function(req, res){
-   res.render
+   res.send("hello world!");
 });
 
 
