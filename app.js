@@ -13,9 +13,9 @@ app.configure(function() {
 
 
 app.get('/', function(req, res){
-   res.send("hello world!");
+   res.send("Hello Alex!");
 });
 
-
+//test
 app.listen(5000);
 console.log('server started');
